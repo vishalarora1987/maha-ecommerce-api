@@ -5,10 +5,12 @@ import java.math.BigDecimal;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import lombok.Builder;
 import lombok.Data;
 
 @Entity(name = "discount")
 @Data
+@Builder
 public class Discount implements Serializable {
 
   @Id

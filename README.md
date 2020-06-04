@@ -17,6 +17,9 @@ A easier way is to run the contract runner using this command -
 4.  mvn test -Dtest=ContractsRunner
 This will start the application and run the configured scenarios.
 
+Though mnv clean install will run the unit tests, you can explicitly use this -
+5. mvn test
+
 ```
 
 ## Technology stack

@@ -6,10 +6,12 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
+import lombok.Builder;
 import lombok.Data;
 
 @Entity(name = "watches")
 @Data
+@Builder
 public class Watch implements Serializable {
 
   @Id
